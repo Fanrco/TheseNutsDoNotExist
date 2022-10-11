@@ -44,8 +44,6 @@ h2{
 
 .tooltip {
     position: relative;
-    display: inline-block;
-    float: right;
 }
   
 /* Tooltip text */
@@ -58,7 +56,7 @@ h2{
     text-align: center;
 
     position: absolute;
-    transform: translate(-491px,-512px);
+    transform: translate(-491px,-536px);
     transition: 0.2s opacity;
 }
 
