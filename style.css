@@ -1,0 +1,28 @@
+:root {
+    --davys-grey: rgb(87, 86, 83);
+    --nickel: rgb(117, 117, 108);
+    --blacc: rgba(0, 0, 0);
+    --darkgray: rgb(17, 19, 20);
+    --offwhite: rgb(216, 208, 207);
+    --dimgray: rgb(108, 108, 108);
+}
+
+body{
+    background-color: var(--darkgray);
+    color: var(--offwhite);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+#centeredDiv{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
