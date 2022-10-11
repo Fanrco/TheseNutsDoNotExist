@@ -1,3 +1,3 @@
 # TheseNutsDoNotExist
 
-Just a silly little website featuring AI generated nuts
+Not only do they not exist, but they are provably fake!
