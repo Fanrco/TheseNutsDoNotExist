@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>These Nuts Do Not Exist</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 	<script src="index.js"></script>
@@ -13,10 +14,23 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    
 
-    <div id="centeredDiv">
-        <h2>These Nuts Do Not Exist</h2>
+    <div class="centeredDiv">
+        <div id="textDiv">
+            <h2>These Nuts Do Not Exist</h2>
+        </div>
         <div id="nutPic"></div>
+        <div class="tooltip"><i class="fa fa-question-circle" style="font-size:24px; float:right; vertical-align: bottom;"></i>
+        <div class="tooltiptext">
+            
+            <div class ="centeredDiv">
+                <h4>Made with Stable Diffusion using the following parameters:</h4>
+                <p id="yamltext" style="white-space: pre-wrap;"></p>
+            </div>
+        </div>
+        </div> 
+        
     </div>
   </body>
 </html>
