@@ -1,4 +1,4 @@
-var nNuts = 20;
+var nNuts = 49;
 
 window.onload = function() {
     getRandomImage();
